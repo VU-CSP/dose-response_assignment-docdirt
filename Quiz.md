@@ -9,11 +9,11 @@ Alphabetical list of cell lines for reference (reorder as instructed below): BR1
 ### Dose response parameters for afatinib  
 1) What is the rank ordering of the cell lines by activity area (observed) (from lowest to highest) using DIP rate as the effect metric?  
 
-answer: 
+answer: BR1, MGH, PC9, DS8, DS7, DS9, DS3
 
 2) What is the rank ordering of the cell lines by activity area (observed) (from lowest to highest) using 72 h viability as the effect metric?
 
-answer: 
+answer: BR1, DS8, PC9, DS3, DS9, DS7, MGH
 
 ### Explore the afatinib-induced responses as time courses and dose-response curves  
 3) Compare the afatinib-induced time courses and dose-response curves of the PC9 variants using Thunor. Which of the following is FALSE?  
@@ -23,7 +23,7 @@ answer:
     d) The cell counts of MGH drop significantly after 72 h but increase slightly thereafter, which results in a positive DIP rate that may not reflect the overall decrease in cell number induced by afatinib.  
     e) The measured DIP rate values of DS3 at all concentrations of afatinib > 300 pM are negative, indicating net cell death.  
 
-answer: 
+answer: e
 
 ### Explore other data in the dataset
 
@@ -33,7 +33,7 @@ answer:
     c) 0.215  
     d) 0  
     
-answer: 
+answer: b
 
 5) What is the EC50 calculated for paclitaxel on BR1 using DIP rate as the effect metric?  
     a) 0.146 nM  
@@ -41,17 +41,17 @@ answer:
     c) Not reported (the model could not be fit to the data)  
     d) 0  
     
-answer:   
+answer: c  
 
 6) From the assignment Python notebook, what is the $EC_{50}$ value of paclitaxel on BR1 from the fit `ll4` function to DIP rates BEFORE removing the artifactual data?  
 
-answer:   
+answer: 5.57458520e-11  
   
 7) From the assignment Python notebook, what is the $EC_{50}$ value of paclitaxel on BR1 from the fit `ll4` function to DIP rates AFTER removing the artifactual data?  
 
-answer:   
+answer: 2.23335887e-10  
   
 8) From the assignment Python notebook, what is the $E_{max}$ value from the fit `ll3` function to response ratio AFTER removing the artifactual data?
 
-answer:   
+answer: -3.36526476e-01  
   
